@@ -1,3 +1,4 @@
+// (c) 2026 Cofibrain
 // Category config
 const CATEGORIES = {
     english: { file: 'words_english.csv', label: 'English' },

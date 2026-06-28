@@ -1,3 +1,4 @@
+# (c) 2026 cofibrain
 FROM nginx:alpine
 
 COPY index.html styles.css app.js sw.js manifest.json /usr/share/nginx/html/

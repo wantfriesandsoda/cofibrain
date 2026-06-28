@@ -1,7 +1,11 @@
+# (c) 2026 cofibrain
 version: '3.8'
+
 services:
   pwa:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.pwa
     ports:
       - "8080:8080"
     restart: unless-stopped
