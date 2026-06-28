@@ -1,0 +1,23 @@
+word,definition
+PWA,Progressive Web App
+llama.cpp,Inference engine for Large Language Models (LLM)
+npm,Node Package Manager
+Next.js,<tbd>
+Recursion,A technique where a function calls itself to solve smaller instances of a problem
+Stack,A data structure following Last In First Out order for inserting and removing elements
+Queue,A data structure following First In First Out order for inserting and removing elements
+Hash Table,A structure that maps keys to values using a hash function for fast lookup
+Binary Tree,A tree data structure where each node has at most two child nodes
+Graph,A data structure consisting of vertices connected by edges representing relationships
+Polymorphism,The ability of different objects to respond to the same interface in different ways
+Encapsulation,Bundling data and methods that operate on that data within a single unit
+Inheritance,A mechanism where a class acquires the properties and behaviors of another class
+Abstraction,Hiding complex implementation details and exposing only necessary features
+Interpreter,A program that executes source code line by line without prior compilation
+Thread,The smallest unit of execution within a process that can run concurrently
+API,A set of rules and protocols allowing different software applications to communicate
+Cache,A component that stores frequently accessed data for faster future retrieval
+SQL,A domain-specific language for managing and querying relational databases
+REST,An architectural style for networked applications using standard HTTP methods
+Concurrency,The ability of a system to handle multiple tasks during overlapping time periods
+Idempotent,An operation that produces the same result regardless of how many times it is applied

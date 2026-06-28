@@ -1,0 +1,31 @@
+word,definition
+Fourier Transform,A mathematical transform that decomposes a signal into its constituent frequencies
+Nyquist Theorem,States that a signal must be sampled at least twice its highest frequency to avoid aliasing
+Aliasing,Distortion that occurs when a signal is sampled below the Nyquist rate causing frequency overlap
+Convolution,A mathematical operation describing how a filter modifies a signal in the time domain
+Impulse Response,The output of a system when the input is a unit impulse; fully characterizes a linear system
+Transfer Function,The ratio of output to input in the frequency domain describing a system's behavior
+Z-Transform,A mathematical transform used to analyze discrete-time signals and systems
+Laplace Transform,A mathematical transform converting time-domain signals into the complex frequency domain
+Sampling Rate,The number of samples taken per second when converting a continuous signal to discrete form
+Quantization,The process of mapping continuous amplitude values to a finite set of discrete levels
+Signal-to-Noise Ratio,The ratio of desired signal power to background noise power typically expressed in decibels
+Decibel,A logarithmic unit used to express the ratio of two power or amplitude values
+Bandwidth,The range of frequencies contained in a signal or passed by a filter
+Low-Pass Filter,A filter that allows frequencies below a cutoff frequency to pass while attenuating higher ones
+High-Pass Filter,A filter that allows frequencies above a cutoff frequency to pass while attenuating lower ones
+Band-Pass Filter,A filter that allows only a specific range of frequencies to pass through
+Notch Filter,A filter that attenuates a narrow band of frequencies while passing all others
+Phase,The position of a point in time within a waveform cycle expressed as an angle in degrees
+Amplitude,The magnitude of a signal representing the peak value from the baseline
+Frequency Domain,A representation of a signal showing how its energy is distributed across frequencies
+Time Domain,A representation of a signal showing how its amplitude varies over time
+Fast Fourier Transform,An efficient algorithm for computing the Discrete Fourier Transform of a sequence
+Discrete Fourier Transform,A transform that converts a finite sequence of equally spaced samples into frequency components
+Modulation,The process of varying a carrier signal to encode information for transmission
+Demodulation,The process of extracting the original information signal from a modulated carrier
+Carrier Signal,A waveform of constant frequency used as a basis for transmitting information
+AM Modulation,A modulation technique where the amplitude of the carrier varies with the input signal
+FM Modulation,A modulation technique where the frequency of the carrier varies with the input signal
+Noise Floor,The level of background noise below which a signal cannot be reliably detected
+Windowing,Applying a weighting function to a signal segment to reduce spectral leakage in FFT analysis

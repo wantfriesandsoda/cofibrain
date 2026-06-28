@@ -1,0 +1,131 @@
+word,definition
+ML,Machine Learning
+AI,Artificial Intelligence
+DL,Deep Learning
+NN,Neural Network
+CNN,Convolutional Neural Network
+RNN,Recurrent Neural Network
+LSTM,Long Short-Term Memory
+GRU,Gated Recurrent Unit
+LLM,Large Language Model
+SLM,Small Language Model
+NLP,Natural Language Processing
+CV,Computer Vision
+ASR,Automatic Speech Recognition
+TTS,Text-to-Speech
+GPU,Graphics Processing Unit
+CPU,Central Processing Unit
+TPU,Tensor Processing Unit
+CUDA,Compute Unified Device Architecture
+SGD,Stochastic Gradient Descent
+GD,Gradient Descent
+MSE,Mean Squared Error
+RMSE,Root Mean Squared Error
+MAE,Mean Absolute Error
+MAPE,Mean Absolute Percentage Error
+RMSProp,Root Mean Square Propagation
+PCA,Principal Component Analysis
+SVM,Support Vector Machine
+KNN,K-Nearest Neighbors
+RF,Random Forest
+DT,Decision Tree
+GBM,Gradient Boosting Machine
+XGBoost,Extreme Gradient Boosting
+LightGBM,Light Gradient Boosting Machine
+CatBoost,Categorical Boosting
+GAN,Generative Adversarial Network
+VAE,Variational Autoencoder
+AE,Autoencoder
+RL,Reinforcement Learning
+DQN,Deep Q-Network
+PPO,Proximal Policy Optimization
+MLOps,Machine Learning Operations
+RAG,Retrieval-Augmented Generation
+LoRA,Low-Rank Adaptation
+PEFT,Parameter-Efficient Fine-Tuning
+MoE,Mixture of Experts
+BPE,Byte Pair Encoding
+TF,TensorFlow
+PT,PyTorch
+API,Application Programming Interface
+ETL,Extract Transform Load
+Linear Regression,Models the relationship between inputs and outputs by fitting a straight line that minimizes prediction error.
+Logistic Regression,Uses the logistic (sigmoid) function to estimate the probability of a binary outcome.
+Gradient Descent,Iteratively minimizes a loss function by moving parameters in the direction of the negative gradient.
+Stochastic Gradient Descent (SGD),Updates model parameters using one training example or a small batch at a time.
+Mini-Batch Gradient Descent,Uses small batches of training samples for efficient and stable optimization.
+Backpropagation,Computes gradients of a neural network efficiently using the chain rule.
+Chain Rule,Calculus rule that propagates derivatives through composed functions during backpropagation.
+Sigmoid Function,Maps any real number into the range 0 to 1 for probabilities.
+Hyperbolic Tangent (tanh),Activation function mapping values into the range -1 to 1.
+ReLU (Rectified Linear Unit),Activation function defined as max(0,x) for fast neural network training.
+Leaky ReLU,Variant of ReLU that allows a small negative slope to prevent dead neurons.
+Softmax Function,Converts a vector of scores into a probability distribution over classes.
+Cross-Entropy Loss,Measures the difference between predicted probabilities and true labels.
+Mean Squared Error (MSE),Measures the average squared difference between predictions and targets.
+Mean Absolute Error (MAE),Measures the average absolute prediction error.
+Huber Loss,Combines MSE and MAE for robustness against outliers.
+L2 Regularization (Ridge),Penalizes large weights to reduce overfitting.
+L1 Regularization (Lasso),Encourages sparse models by penalizing the absolute value of weights.
+Elastic Net,Combines L1 and L2 regularization penalties.
+Dropout,Randomly disables neurons during training to improve generalization.
+Batch Normalization,Normalizes activations within a batch to stabilize training.
+Layer Normalization,Normalizes across features and is widely used in Transformer models.
+Residual Connections,Adds shortcut paths to improve gradient flow in deep networks.
+Attention Mechanism,Learns which input elements deserve the most focus during prediction.
+Scaled Dot-Product Attention,Core attention computation used inside Transformer models.
+Multi-Head Attention,Runs multiple attention mechanisms in parallel to capture different relationships.
+Self-Attention,Allows each token to attend to every other token in a sequence.
+Positional Encoding,Adds position information to Transformer inputs since attention is order-independent.
+Transformer Architecture,Deep learning architecture based primarily on attention mechanisms.
+Feed-Forward Network (FFN),Per-token multilayer network inside every Transformer block.
+Principal Component Analysis (PCA),Reduces dimensionality by projecting data onto directions of maximum variance.
+Singular Value Decomposition (SVD),Factorizes a matrix into orthogonal components for compression and analysis.
+Eigenvalue Decomposition,Finds principal directions and magnitudes of linear transformations.
+K-Means Clustering,Partitions data into K clusters by minimizing within-cluster variance.
+Gaussian Mixture Model (GMM),Represents data as a weighted mixture of Gaussian distributions.
+Expectation-Maximization (EM),Alternates between estimating hidden variables and optimizing model parameters.
+Support Vector Machine (SVM),Finds the maximum-margin separating hyperplane between classes.
+Kernel Trick,Maps data implicitly into higher-dimensional spaces without explicit transformation.
+Naive Bayes Classifier,Applies Bayes' theorem assuming conditional independence of features.
+Bayes' Theorem,Updates probabilities using observed evidence.
+Decision Tree,Recursively splits data according to feature values to make predictions.
+Random Forest,Combines many decision trees using bagging to improve accuracy.
+Gradient Boosting,Sequentially builds models that correct the errors of previous models.
+XGBoost,Highly optimized implementation of gradient boosting with regularization.
+Adam Optimizer,Adaptive optimization algorithm combining momentum and RMSProp ideas.
+RMSProp Optimizer,Adaptive learning-rate optimization using moving averages of squared gradients.
+Momentum Optimization,Accelerates gradient descent using exponentially weighted past gradients.
+Cosine Similarity,Measures the angle-based similarity between vectors and is widely used in embeddings.
+Euclidean Distance,Measures straight-line distance between vectors in feature space.
+Low-Rank Adaptation (LoRA),Fine-tunes LLMs by learning low-rank matrix updates instead of full weight matrices.
+Overfitting,When a model learns training data too well including noise and fails to generalize
+Underfitting,When a model is too simple to capture the underlying pattern in the data
+Gradient Descent,An optimization algorithm that minimizes loss by iteratively adjusting parameters
+Neural Network,A computational model inspired by the brain consisting of layers of interconnected nodes
+Backpropagation,An algorithm for training neural networks by computing gradients layer by layer
+Epoch,One complete pass through the entire training dataset during model training
+Batch Size,The number of training samples processed before the model parameters are updated
+Loss Function,A function measuring how far model predictions are from the actual target values
+Regularization,A technique to prevent overfitting by adding a penalty term to the loss function
+Feature,An individual measurable property or characteristic used as input to a model
+Label,The output or target variable a supervised learning model is trained to predict
+Training Set,The portion of data used to fit a machine learning model
+Validation Set,Data used to tune hyperparameters and evaluate model performance during training
+Test Set,Data held back to evaluate final model performance after training is complete
+Hyperparameter,A configuration value set before training that controls the learning process
+Precision,The proportion of true positive predictions among all positive predictions made
+Recall,The proportion of actual positives that were correctly identified by the model
+F1 Score,The harmonic mean of precision and recall used to balance both metrics
+Clustering,An unsupervised learning task that groups similar data points together
+Dimensionality Reduction,Techniques to reduce the number of features while preserving important information
+Transfer Learning,Using a model trained on one task as a starting point for a different task
+Confusion Matrix,A table showing predicted versus actual classifications for evaluating a model
+Sigmoid,An activation function that maps any input value to a range between zero and one
+Softmax,An activation function that converts a vector of raw scores into a probability distribution
+Dropout,A regularization technique that randomly deactivates neurons during training
+Convolution,A mathematical operation used in CNNs to detect features by sliding a filter over data
+Tokenization,The process of splitting text into individual units such as words or subwords
+Embedding,A dense vector representation of discrete objects such as words or categories
+Attention Mechanism,A technique allowing models to focus on the most relevant parts of the input
+Transformer,A neural network architecture relying entirely on self-attention for sequence processing
