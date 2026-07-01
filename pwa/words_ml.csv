@@ -1,4 +1,56 @@
 word,definition
+o-series Reasoning Models, Family of models like o1 o3 designed to spend dedicated compute on internal chain-of-thought reasoning before responding for superior performance on complex tasks
+Deliberative Alignment, Safety technique where reasoning models evaluate the safety implications of requests using their own deliberation capabilities
+Thinking with Images, Ability of o3 and later models to actively integrate and reason over visual inputs directly in their chain of thought rather than just describing them
+Agentic Tool Use, Training models to strategically reason about when and how to invoke tools like web search code execution and image generation for multi-step tasks
+ChatGPT Images 2.0, OpenAI's updated image generation model integrated into ChatGPT with improved quality and editing capabilities
+GPT-5 Thinking Modes, Unified system with efficient base model deeper reasoning variant and router that selects based on query complexity
+Study Mode, Specialized response mode in ChatGPT that provides hints structured lessons and quizzes instead of direct answers for educational use
+Instant Checkout, Feature allowing users to make purchases directly within ChatGPT conversations through integrated merchant protocols
+Group Chats, Collaborative conversations in ChatGPT where multiple users and the AI work together in a shared context
+Deliberative Reasoning Tokens, Internal hidden tokens used during inference for extended step-by-step thinking before producing the final output
+Gemini Omni, New multimodal model capable of generating and editing video from any input modality including conversation for advanced creative workflows
+Gems, Customizable personalized AI experts or chatbots within Gemini that users can tailor with specific instructions and knowledge for dedicated tasks
+Gemini Deep Think, Advanced reasoning mode in Gemini 3 for solving highly complex multi-step problems with deeper analysis
+Gemini Spark, Personal AI agent designed to navigate a user's digital life perform tasks proactively and act on their behalf
+Gemini CLI, Open-source AI agent for terminal and command-line environments enabling agentic coding and system operations
+Deep Research, Autonomous research capability where Gemini browses synthesizes and summarizes information across multiple web sources
+Gemini Enterprise Agent Platform, Comprehensive enterprise platform for building scaling governing and optimizing fleets of AI agents
+Gemini 3 Deep Think, Most advanced reasoning variant emphasizing extended chain-of-thought and complex problem decomposition
+Agentic Era, Google's framing of the current AI phase where models like Gemini 2.0+ perform autonomous multi-step actions and goal pursuit
+Native Multimodal Output, Gemini 2.0+ ability to generate images audio video and other modalities directly as outputs alongside text
+Project-Level Spend Caps, Billing control feature in Gemini API and AI Studio allowing granular cost management at the project level
+Flex and Priority Inference Tiers, New inference options in Gemini API providing flexibility between cost speed and performance guarantees
+Grok 4 Heavy, Multi-agent variant of Grok 4 that runs multiple specialized agents in parallel then synthesizes results for superior reasoning and reliability
+Scaled Reinforcement Learning at Pretraining Scale, xAI's approach of applying massive reinforcement learning training runs comparable in compute to pretraining for dramatically better reasoning
+Native Tool Use, Training models end-to-end with reinforcement learning so they autonomously decide when and how to use tools like code interpreters web search and X search
+Grok Imagine, xAI's in-house multimodal model for high-quality image generation video generation and advanced image editing
+Deep Search, Built-in real-time research mode allowing Grok to query the web and X dynamically for up-to-date information
+Grok 4 Voice Mode, Real-time voice conversation with camera vision integration for seeing and analyzing the user's physical environment live
+Voice Agent Builder, Beta tool from xAI for easily creating and deploying custom voice-based AI agents
+Grokipedia, xAI's AI-generated encyclopedia produced and fact-checked primarily by Grok as an alternative knowledge base
+Humanity's Last Exam, Benchmark heavily used by xAI to evaluate frontier models on deep expert-level knowledge across domains
+Colossus-Optimized Training, Leveraging xAI's massive 200000+ GPU supercluster with custom efficiency improvements for large-scale RL and pretraining
+Agentic AI, Systems that autonomously pursue goals make decisions plan multi-step actions and adapt using tools or self-correction loops  
+Model Context Protocol (MCP), Open protocol standardizing how LLMs and agents connect to external tools data sources and resources securely  
+Retrieval-Augmented Generation (RAG) 2.0, Advanced multimodal RAG that integrates real-time verified data for grounded up-to-date responses  
+Small Language Models (SLMs), Compact efficient LLMs runnable on-device or on-prem emphasizing privacy and lower compute  
+Multi-Agent Orchestration, Coordinating multiple specialized AI agents supervisors subagents or swarms for complex tasks  
+RL Post-Training / RLAIF, Reinforcement Learning from AI Feedback to refine models and improve alignment post-training  
+Neuro-Symbolic AI, Hybrid combining neural networks with symbolic logic for more explainable reasoning  
+Edge AI, Running ML models directly on devices for real-time inference with low latency and privacy  
+Multimodal AI, Models processing and generating across text image audio and video simultaneously  
+Vibe Coding, Accepting and iterating on AI-generated code with high-level oversight rather than line-by-line review  
+Prompt Caching / Context Engineering, Techniques to reuse or optimize large contexts for efficiency in agent sessions  
+Explainable AI (XAI), Methods making model decisions transparent and interpretable for trust and compliance  
+Synthetic Data, Artificially generated datasets mimicking real data for training while preserving privacy  
+Agentic Loop, Iterative cycle of perception reasoning action and verification in autonomous agents  
+Sovereign AI, Building independent AI infrastructure for data control and reduced external reliance  
+Hyperautomation, End-to-end automation combining AI RPA and process mining for complex workflows  
+Constitutional AI, Aligning models via self-critique against predefined principles for safety  
+Digital Twin (AI-Enhanced), Virtual replicas of systems simulated and optimized by AI for prediction  
+AI Governance, Internal frameworks policies and roles for responsible AI use and risk management  
+Test-Time Compute / Distillation, Extra inference resources or model compression for efficient advanced capabilities
 ML,Machine Learning
 AI,Artificial Intelligence
 DL,Deep Learning
