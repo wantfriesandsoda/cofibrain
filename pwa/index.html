@@ -65,13 +65,30 @@
 
             <hr style="border-color: #C8A06E; margin: 1rem 0;">
             <h3>Quiz Category</h3>
-            <div class="card">
-                <label><input type="radio" name="category" value="english" onchange="selectCategory('english')"> English</label>
-                <label><input type="radio" name="category" value="math" onchange="selectCategory('math')"> Mathematics</label>
-                <label><input type="radio" name="category" value="ml" onchange="selectCategory('ml')"> Machine Learning</label>
-                <label><input type="radio" name="category" value="cs" onchange="selectCategory('cs')"> Computer Science</label>
-                <label><input type="radio" name="category" value="eng" onchange="selectCategory('eng')"> Engineering (Signal Processing)</label>
-            </div>
+
+
+<div class="card">
+
+    <select id="categoryList"
+            size="8"
+            onchange="selectCategory(this.value)"
+            class="category-list">
+
+        <option value="english">English</option>
+        <option value="math">Mathematics</option>
+        <option value="ml">Machine Learning</option>
+        <option value="cs">Computer Science</option>
+        <option value="eng">Engineering (Signal Processing)</option>
+        <option value="cuda">CUDA</option>
+
+    </select>
+
+</div>
+
+
+
+
+
             <p id="category-status" style="font-size: 0.9rem; min-height: 1.2rem;"></p>
 
             <hr style="border-color: #C8A06E; margin: 1rem 0;">

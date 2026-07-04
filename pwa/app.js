@@ -5,7 +5,8 @@ const CATEGORIES = {
     math:    { file: 'words_math.csv',    label: 'Mathematics' },
     ml:      { file: 'words_ml.csv',      label: 'Machine Learning' },
     cs:      { file: 'words_cs.csv',      label: 'Computer Science' },
-    eng:     { file: 'words_eng.csv',     label: 'Engineering (Signal Processing)' }
+    eng:     { file: 'words_eng.csv',     label: 'Engineering (Signal Processing)' },
+    cuda:    { file: 'words_cuda.csv',   label: 'CUDA' }
 };
 let currentCategory = 'english';
 
@@ -66,7 +67,7 @@ function updateNetworkStatus() {
 
 // ====================== CSV + QUIZ GENERATION ======================
 
-function parseCSV(text) {
+function parseCSVorig(text) {
     const lines = text.trim().split('\n');
     const words = [];
     for (let i = 1; i < lines.length; i++) {
@@ -80,6 +81,45 @@ function parseCSV(text) {
     }
     return words;
 }
+
+
+function parseCSV(text) {
+    const lines = text.trim().split(/\r?\n/);
+    const words = [];
+
+    // Skip header row
+    for (let i = 1; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+
+        const parts = line.split("|||");
+
+        // Must have at least word and definition
+        if (parts.length < 2) continue;
+
+        const word = parts[0].trim().replace(/^"|"$/g, "");
+        const definition = parts.slice(1).join("|||").trim().replace(/^"|"$/g, "");
+
+        if (word && definition) {
+            words.push({
+                word,
+                definition
+            });
+        }
+    }
+
+    return words;
+}
+
+
+
+
+
+
+
+
+
+
 
 function shuffle(arr) {
     const a = [...arr];
@@ -107,9 +147,13 @@ function generateQuestions(words, count = 10) {
 }
 
 async function loadQuestions() {
+    wordList = [];
+    questions = [];
+    userAnswers = [];
     try {
         const csvFile = CATEGORIES[currentCategory].file;
         const response = await fetch(csvFile);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const text = await response.text();
         wordList = parseCSV(text);
         questions = generateQuestions(wordList);
@@ -329,8 +373,22 @@ window.onload = function() {
     }
 
     currentCategory = localStorage.getItem('category') || 'english';
-    const savedRadio = document.querySelector(`input[name="category"][value="${currentCategory}"]`);
-    if (savedRadio) savedRadio.checked = true;
+
+
+
+const list = document.getElementById("categoryList");
+
+if (list)
+    list.value = currentCategory;
+
+
+
+
+
+
+
+
+
 
     loadQuestions().then(() => {
         showSection('home');

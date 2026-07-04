@@ -130,8 +130,51 @@ label {
     color: #F5ECD7;
 }
 
+.category-list
+{
+    width:100%;
+    height:220px;
+
+    font-size:1rem;
+
+    border:1px solid #C8A06E;
+    border-radius:6px;
+
+    background:#FFFDF6;
+    color:#2C1810;
+
+    padding:4px;
+
+    overflow-y:auto;
+}
+
+.category-list option
+{
+    padding:8px;
+}
+
+.category-list option:checked
+{
+    background:#6B3A2A;
+    color:#F5ECD7;
+}
+
+.dark-mode .category-list
+{
+    background:#2C1810;
+    color:#F5ECD7;
+    border-color:#8D6A4E;
+}
+
+
+
 .online { background: #4A7856; }
 .offline { background: #8B3A3A; }
+
+
+
+
+
 
 .dark-mode {
     background-color: #160C07;

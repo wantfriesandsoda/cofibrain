@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-v4';
+const CACHE_NAME = 'pwa-v5';
 const urlsToCache = [
     '/',
     '/index.html',
@@ -9,7 +9,8 @@ const urlsToCache = [
     '/words_math.csv',
     '/words_ml.csv',
     '/words_cs.csv',
-    '/words_eng.csv'
+    '/words_eng.csv',
+    '/words_cuda.csv'
 ];
 
 self.addEventListener('install', event => {

@@ -3,6 +3,7 @@ FROM nginx:alpine
 
 COPY index.html styles.css app.js sw.js manifest.json /usr/share/nginx/html/
 COPY words_english.csv words_math.csv words_ml.csv words_cs.csv words_eng.csv /usr/share/nginx/html/
+COPY words_cuda.csv /usr/share/nginx/html/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
