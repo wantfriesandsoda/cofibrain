@@ -1,10 +1,11 @@
-const CACHE_NAME = 'pwa-v5';
+const CACHE_NAME = 'pwa-v11';
 const urlsToCache = [
     '/',
     '/index.html',
     '/styles.css',
     '/app.js',
     '/manifest.json',
+    '/cofibrain-sml.png',
     '/words_english.csv',
     '/words_math.csv',
     '/words_ml.csv',

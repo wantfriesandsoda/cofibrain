@@ -15,6 +15,14 @@ header {
     position: relative;
 }
 
+.logo {
+    position: absolute;
+    top: 0.75rem;
+    left: 1rem;
+    height: 96px;
+    border-radius: 8px;
+}
+
 nav button {
     margin: 0.5rem;
     padding: 0.5rem 1rem;
@@ -120,15 +128,6 @@ label {
     border: 1px solid #8B3A3A;
 }
 
-#status {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    color: #F5ECD7;
-}
 
 .category-list
 {
@@ -168,8 +167,6 @@ label {
 
 
 
-.online { background: #4A7856; }
-.offline { background: #8B3A3A; }
 
 
 

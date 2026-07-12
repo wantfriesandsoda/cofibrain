@@ -50,19 +50,8 @@ async function clearCache() {
 }
 
 function updateNetworkStatus() {
-    const statusEl = document.getElementById('status');
     const netStatus = document.getElementById('networkStatus');
-    const isOnline = navigator.onLine;
-
-    if (isOnline) {
-        statusEl.textContent = 'Online';
-        statusEl.className = 'status online';
-        netStatus.textContent = 'Connected';
-    } else {
-        statusEl.textContent = 'Offline';
-        statusEl.className = 'status offline';
-        netStatus.textContent = 'Air-Gapped';
-    }
+    netStatus.textContent = navigator.onLine ? 'Connected' : 'Air-Gapped';
 }
 
 // ====================== CSV + QUIZ GENERATION ======================
@@ -356,7 +345,8 @@ function restartQuiz() {
 
 // ====================== INITIALIZATION ======================
 window.onload = function() {
-    const savedDark = localStorage.getItem('darkMode') === 'true';
+    // Dark mode is the default; only an explicit 'false' (user opted out) disables it
+    const savedDark = localStorage.getItem('darkMode') !== 'false';
     if (savedDark) {
         document.body.classList.add('dark-mode');
         document.getElementById('darkMode').checked = true;
